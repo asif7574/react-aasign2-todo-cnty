@@ -1,0 +1,47 @@
+.todolistmain{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #7E60BF;
+    gap: 5px;
+    height: 40px;
+    border-radius: 20px;
+    width: 300px;
+    
+}
+.donebtn{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(10, 156, 25, 0.763);
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    right: 80px;
+    margin-top: 6px;
+
+}
+.delbtn{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(192, 13, 13, 0.959);
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    margin-top: 6px;
+}
+.plist{
+    font-weight: bolder;
+font-size: 20px;
+color: #433878;
+margin-top: 5px;
+margin-left:10px ;
+}
+.done-plist{
+    text-decoration: line-through;
+    color: #7E60BF;
+
+}
